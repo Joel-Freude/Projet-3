@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 2%;
+}
+.navbar {
+    display: flex;
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.hero h2{
+    font-size: 5em;
+    margin: 0;
+}
+.sections{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.about{
+    width: 30%;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+.projects{
+    width: 30%;
+    padding: 20px;
+    background-color: #d0d0d0;
+    border-radius: 10px;
+}
+.contact{
+    width: 30%;
+    padding: 20px;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+.feedbacks{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.client{
+    width: 30%;
+    padding: 20px;
+    background-color: #a0a0a0;
+    border-radius: 10px;
+}
